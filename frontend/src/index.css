@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply antialiased;
+}
+
+.remote-btn {
+  @apply flex items-center justify-center p-4 rounded-full bg-tv-card hover:bg-gray-700 active:bg-gray-600 transition-colors shadow-lg;
+}
+
+.d-pad-btn {
+  @apply flex items-center justify-center p-3 bg-tv-card hover:bg-gray-700 active:bg-gray-600 transition-colors;
+}
